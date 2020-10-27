@@ -1,0 +1,12 @@
+{
+  "extends": "./node_modules/gts/",
+  "rules": {
+    "@typescript-eslint/naming-convention": [
+      "error",
+      { "selector": "default", "format": ["camelCase"] },
+      { "selector": "typeLike", "format": ["PascalCase"] }
+    ],
+    "semi": "off",
+    "@typescript-eslint/semi": ["error", "never"]
+  }
+}
